@@ -3,7 +3,7 @@ package Consumer;
 import Service.FileService;
 
 public class Application implements ApplicationConsumer{
-    FileService fileService ;
+    private FileService fileService ;
     public Application(FileService fileService){
         this.fileService = fileService;
     }
